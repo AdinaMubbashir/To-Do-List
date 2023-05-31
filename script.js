@@ -25,12 +25,10 @@ function addTask() {
         taskInput.value = "";
     }
 }
-
 function clearList() {
     var taskList = document.getElementById("task-list");
     taskList.innerHTML = "";
 }
-
 function filterTasks() {
     var taskItems = document.querySelectorAll("#task-list li");
     var filterSelect = document.getElementById("filter-select");
